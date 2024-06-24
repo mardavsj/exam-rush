@@ -8,7 +8,10 @@ import footer from '../public/footerbg.png';
 const Footer = () => {
   return (
     <footer className="bg-white">
-      <div className="">
+      <div className="absolute bottom-0 w-full">
+        <Image src={footer} alt="footer background" className="mx-auto"/>
+      </div>
+      <div className="relative">
         <div className="container mx-auto py-36">
           <div className="flex flex-wrap">
             <div className="w-full md:w-1/2 lg:w-1/4 px-4">
@@ -59,9 +62,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="absolute bottom-0 w-full">
-          <Image src={footer} alt="footer background" className="mx-auto"/>
         </div>
       </div>
       <div className="bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 py-8">
