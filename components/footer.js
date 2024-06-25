@@ -28,12 +28,12 @@ const Footer = () => {
               <div className="wow fadeInLeft" data-wow-delay="0.4s">
                 <h3 className="text-lg font-semibold text-gray-800 mb-6">Trending</h3>
                 <ul className="list-none space-y-3">
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Function 1</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Function 2</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Function 3</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Function 4</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Function 5</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Function 6</a></li>
+                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Cloud Computing</a></li>
+                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Amazon Web Services</a></li>
+                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Microsoft Azure</a></li>
+                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Docker</a></li>
+                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Kubernetes</a></li>
+                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Ethical Hacking</a></li>
                 </ul>
               </div>
             </div>
