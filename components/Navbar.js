@@ -6,19 +6,25 @@ import logo from '../public/logo.png'
 const Navbar = () => {
     return (
         <>
-            <nav className="fixed z-50 mx-auto bg-white md:w-full border">
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
-                    <div className="flex items-center">
-                        <Image src={logo} width="40" height="40" alt="logo" />
+            <nav className="fixed mx-auto bg-white w-full border">
+                <div className="max-w-screen-xl flex items-center justify-between mx-auto p-3">
+                    <div className="flex items-center order-1">
+                        <Image src={logo} width="35" height="35" alt="logo" />
                         <span className="self-center text-2xl font-bold px-2">ExamRush</span>
                     </div>
-                    <div className="flex md:order-2">
-                        <button type="button" className="bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 text-white font-medium rounded-full text-sm px-4 py-1 text-center hover:bg-gradient-to-tl ease-in-out duration-100">Get started</button>
-                        <button data-collapse-toggle="navbar-cta" type="button" className=" items-center p-2 w-10 h-10 justify-center text-sm rounded-lg" aria-controls="navbar-cta" aria-expanded="false">
-                        </button>
-                    </div>
-                    <div className="items-center justify-between flex w-auto md:order-1" id="navbar-cta">
-                        <div className="flex font-medium rounded-lg flex-row space-x-8">
+                    <form class="order-2">
+                        <div class="flex relative gap-1">
+                            <div class="absolute inset-y-0 flex items-center ps-3">
+                                <svg class="w-4 h-4 text-purple-900 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                                </svg>
+                            </div>
+                            <input type="search" id="default-search" class="block p-2 ps-8 text-sm border rounded bg-purple-50" placeholder="Explore every topic" required />
+                            <button type="submit" class="text-white bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 rounded text-sm px-4 hover:bg-gradient-to-tl">Search</button>
+                        </div>
+                    </form>
+                    <div className="order-1">
+                        <div className="flex font-medium space-x-6">
                                 <Link href="/" className="hover:underline" aria-current="page">Home</Link>
                                 <Link href="/about" className="hover:underline">About</Link>
                                 <Link href="/hotquestions" className="hover:underline">Hot Questions</Link>
@@ -27,35 +33,6 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-            <div className="flex w-full">
-                <ul className="flex mx-auto m-16 space-x-10 text-gray-600 border p-3 px-10">
-                    <li>
-                        <a href="/1stsem" className="block rounded hover:scale-105">1st Sem</a>
-                    </li>
-                    <li>
-                        <a href="/2ndsem" className="block rounded hover:scale-105">2nd Sem</a>
-                    </li>
-                    <li>
-                        <a href="/3rdsem" className="block rounded hover:scale-105">3rd Sem</a>
-                    </li>
-                    <li>
-                        <a href="/4thsem" className="block rounded hover:scale-105">4th Sem</a>
-                    </li>
-                    <li>
-                        <a href="/5thsem" className="block rounded hover:scale-105">5th Sem</a>
-                    </li>
-                    <li>
-                        <a href="/6thsem" className="block rounded hover:scale-105">6th Sem</a>
-                    </li>
-                    <li>
-                        <a href="/7thsem" className="block rounded hover:scale-105">7th Sem</a>
-                    </li>
-                    <li>
-                        <a href="/8thsem" className="block rounded hover:scale-105">8th Sem</a>
-                    </li>
-                </ul>
-            </div>
-
         </>
     )
 }
