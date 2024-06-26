@@ -101,16 +101,16 @@ const Footer = () => {
             </div>
           </div>
       </div>
-      <div className="relative w-full bottom-0">
+      <div className="">
         <Image src={footer} alt="footer background" className="mx-auto"/>
       </div>
       </div>
-      <div className="bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 py-8">
+      <div className="bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 py-4">
         <div className="container mx-auto flex flex-wrap justify-between items-center">
-          <div className="w-1/2 text-white text-sm">
+          <div className="w-1/2 text-gray-200 text-sm">
             © ExamRush 2024 All rights reserved.
           </div>
-          <div className="w-1/2 text-right text-white text-sm">
+          <div className="w-1/2 text-gray-200 text-right text-sm">
             Made with <span>🤍</span>
           </div>
         </div>
