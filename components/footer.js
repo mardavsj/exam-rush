@@ -53,13 +53,14 @@ const Footer = () => {
         <div className="container mx-auto">
           <div className="flex flex-wrap">
             <div className="w-1/4 px-4">
-              <div className="wow fadeInLeft" data-wow-delay="0.2s">
-                <h3 className="text-lg font-semibold text-gray-800 mb-6">Get in Touch</h3>
-                <p className="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <form action="#" onSubmit="">
-                  <input type="text" name="EMAIL" className="form-control memail w-full py-2 px-4 mb-4 border border-gray-300 rounded" placeholder="Email" />
-                  <button className=" w-full py-2 px-4 bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 text-white rounded hover:bg-gradient-to-tl " type="submit">Subscribe</button>
-                </form>
+              <div className="wow fadeInLeft">
+                <h3 className="text-lg font-semibold text-gray-800 mb-6">Follow us at :</h3>
+                <div className="flex space-x-4">
+                  <a href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaLinkedin /></a>
+                  <a href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaInstagram /></a>
+                  <a href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaGithub /></a>
+                  <a href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaSquareXTwitter /></a>
+                </div>
               </div>
             </div>
             <div className="w-1/4 px-4">
@@ -89,14 +90,13 @@ const Footer = () => {
               </div>
             </div>
             <div className="w-1/4 px-4">
-              <div className="wow fadeInLeft">
-                <h3 className="text-lg font-semibold text-gray-800 mb-6">Follow us at :</h3>
-                <div className="flex space-x-4">
-                  <a href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaLinkedin/></a>
-                  <a href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaInstagram/></a>
-                  <a href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaGithub/></a>
-                  <a href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaSquareXTwitter/></a>
-                </div>
+              <div className="wow fadeInLeft" data-wow-delay="0.2s">
+                <h3 className="text-lg font-semibold text-gray-800 mb-6">Get in Touch</h3>
+                <p className="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <form action="#" onSubmit="">
+                  <input type="text" name="EMAIL" className="form-control memail w-full py-2 px-4 mb-4 border border-gray-300 rounded" placeholder="Email" />
+                  <button className=" w-full py-2 px-4 bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 text-white rounded hover:bg-gradient-to-tl " type="submit">Subscribe</button>
+                </form>
               </div>
             </div>
           </div>
