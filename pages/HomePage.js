@@ -8,18 +8,22 @@ const HomePage = () => {
     <div className="w-full bg-white h-screen py-16">
       <div className="bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 py-4">
         <div className="container mx-auto flex flex-wrap justify-between items-center">
-        <div className="flex space-x-6 text-white mx-auto">
-            <Link href="/python" className="hover:scale-105">Python</Link>
-            <Link href="/cn" className="hover:scale-105">Computer Network</Link>
-            <Link href="/oops" className="hover:scale-105">Oops in C++</Link>
-            <Link href="/physics" className="hover:scale-105">Semiconductor Physics</Link>
-            <Link href="/chemistry" className="hover:scale-105">Chemistry</Link>
-            <Link href="/mpi" className="hover:scale-105">Microprocessor</Link>
-            <Link href="/java" className="hover:scale-105">Java</Link>
-            <Link href="/dbms" className="hover:scale-105">DBMS</Link>
-            <Link href="/os" className="hover:scale-105">Operating System</Link>
-            <Link href="/htmlCss" className="hover:scale-105">HTML/CSS</Link>
-            <Link href="/js" className="hover:scale-105">JavaScript</Link>
+        <div className="flex space-x-5 text-white mx-auto font-light">
+            <div className="uppercase tracking-wide text-white">
+              <span className="block font-extrabold text-1xl bg-clip-text text-transparent bg-[url(https://i.ibb.co/RDTnNrT/animated-text-fill.png)] animate-aitf ">
+                Most Viewed
+              </span>
+            </div>
+            <Link href="/python/python" className="hover:scale-105">Python</Link>
+            <Link href="/cn/cn" className="hover:scale-105">Computer Network</Link>
+            <Link href="/oops/oops" className="hover:scale-105">Oops in C++</Link>
+            <Link href="/physics/physics" className="hover:scale-105">Semiconductor Physics</Link>
+            <Link href="/mpi/mpi" className="hover:scale-105">Microprocessor</Link>
+            <Link href="/java/java" className="hover:scale-105">Java</Link>
+            <Link href="/dbms/dbms" className="hover:scale-105">DBMS</Link>
+            <Link href="/os/os" className="hover:scale-105">Operating System</Link>
+            <Link href="/htmlCss/htmlCss" className="hover:scale-105">HTML/CSS</Link>
+            <Link href="/js/js" className="hover:scale-105">JavaScript</Link>
           </div>
         </div>
       </div>
