@@ -67,7 +67,7 @@ const Footer = () => {
             <div className="w-1/4 px-4">
               <div className="wow fadeInLeft" data-wow-delay="0.4s">
                 <h3 className="text-lg font-semibold text-gray-800 mb-6">Trending</h3>
-                <ul className="list-none space-y-3">
+                <ul className="grid space-y-3">
                   <Link href="#" className="text-gray-600 hover:text-purple-600">Cloud Computing</Link>
                   <Link href="#" className="text-gray-600 hover:text-purple-600">Amazon Web Services</Link>
                   <Link href="#" className="text-gray-600 hover:text-purple-600">Microsoft Azure</Link>
@@ -80,7 +80,7 @@ const Footer = () => {
             <div className="w-1/4 px-4">
               <div className="wow fadeInLeft" data-wow-delay="0.6s">
                 <h3 className="text-lg font-semibold text-gray-800 mb-6">tutorials</h3>
-                <ul className="list-none space-y-3">
+                <ul className="grid space-y-3">
                   <Link href="/help/faq" className="text-gray-600 hover:text-purple-600">FAQ</Link>
                   <Link href="/help/termsCondition" className="text-gray-600 hover:text-purple-600">Terms & Conditions</Link>
                   <Link href="/help/report" className="text-gray-600 hover:text-purple-600">Reporting</Link>
