@@ -78,14 +78,14 @@ const Footer = () => {
             </div>
             <div className="w-1/4 px-4">
               <div className="wow fadeInLeft" data-wow-delay="0.6s">
-                <h3 className="text-lg font-semibold text-gray-800 mb-6">Help</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-6">tutorials</h3>
                 <ul className="list-none space-y-3">
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">FAQ</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Terms & Conditions</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Reporting</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Documentation</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Support Policy</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Privacy</a></li>
+                  <li><a href="/help/faq" className="text-gray-600 hover:text-purple-600">FAQ</a></li>
+                  <li><a href="/help/termsCondition" className="text-gray-600 hover:text-purple-600">Terms & Conditions</a></li>
+                  <li><a href="/help/report" className="text-gray-600 hover:text-purple-600">Reporting</a></li>
+                  <li><a href="/help/documentation" className="text-gray-600 hover:text-purple-600">Documentation</a></li>
+                  <li><a href="/help/support" className="text-gray-600 hover:text-purple-600">Support Policy</a></li>
+                  <li><a href="/help/privacy" className="text-gray-600 hover:text-purple-600">Privacy</a></li>
                 </ul>
               </div>
             </div>
