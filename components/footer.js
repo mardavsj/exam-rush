@@ -5,6 +5,7 @@ import Image from 'next/image';
 import footer from '../public/footerbg.png';
 import { useEffect } from 'react';
 import { FaArrowUp } from "react-icons/fa"
+import Link from 'next/link'
 
 const Footer = () => {
 
@@ -56,10 +57,10 @@ const Footer = () => {
               <div className="wow fadeInLeft">
                 <h3 className="text-lg font-semibold text-gray-800 mb-6">Follow us at :</h3>
                 <div className="flex space-x-4">
-                  <a href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaLinkedin /></a>
-                  <a href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaInstagram /></a>
-                  <a href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaGithub /></a>
-                  <a href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaSquareXTwitter /></a>
+                  <Link href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaLinkedin /></Link>
+                  <Link href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaInstagram /></Link>
+                  <Link href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaGithub /></Link>
+                  <Link href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaSquareXTwitter /></Link>
                 </div>
               </div>
             </div>
@@ -67,12 +68,12 @@ const Footer = () => {
               <div className="wow fadeInLeft" data-wow-delay="0.4s">
                 <h3 className="text-lg font-semibold text-gray-800 mb-6">Trending</h3>
                 <ul className="list-none space-y-3">
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Cloud Computing</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Amazon Web Services</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Microsoft Azure</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Docker</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Kubernetes</a></li>
-                  <li><a href="#" className="text-gray-600 hover:text-purple-600">Ethical Hacking</a></li>
+                  <Link href="#" className="text-gray-600 hover:text-purple-600">Cloud Computing</Link>
+                  <Link href="#" className="text-gray-600 hover:text-purple-600">Amazon Web Services</Link>
+                  <Link href="#" className="text-gray-600 hover:text-purple-600">Microsoft Azure</Link>
+                  <Link href="#" className="text-gray-600 hover:text-purple-600">Docker</Link>
+                  <Link href="#" className="text-gray-600 hover:text-purple-600">Kubernetes</Link>
+                  <Link href="#" className="text-gray-600 hover:text-purple-600">Ethical Hacking</Link>
                 </ul>
               </div>
             </div>
@@ -80,12 +81,12 @@ const Footer = () => {
               <div className="wow fadeInLeft" data-wow-delay="0.6s">
                 <h3 className="text-lg font-semibold text-gray-800 mb-6">tutorials</h3>
                 <ul className="list-none space-y-3">
-                  <li><a href="/help/faq" className="text-gray-600 hover:text-purple-600">FAQ</a></li>
-                  <li><a href="/help/termsCondition" className="text-gray-600 hover:text-purple-600">Terms & Conditions</a></li>
-                  <li><a href="/help/report" className="text-gray-600 hover:text-purple-600">Reporting</a></li>
-                  <li><a href="/help/documentation" className="text-gray-600 hover:text-purple-600">Documentation</a></li>
-                  <li><a href="/help/support" className="text-gray-600 hover:text-purple-600">Support Policy</a></li>
-                  <li><a href="/help/privacy" className="text-gray-600 hover:text-purple-600">Privacy</a></li>
+                  <Link href="/help/faq" className="text-gray-600 hover:text-purple-600">FAQ</Link>
+                  <Link href="/help/termsCondition" className="text-gray-600 hover:text-purple-600">Terms & Conditions</Link>
+                  <Link href="/help/report" className="text-gray-600 hover:text-purple-600">Reporting</Link>
+                  <Link href="/help/documentation" className="text-gray-600 hover:text-purple-600">Documentation</Link>
+                  <Link href="/help/support" className="text-gray-600 hover:text-purple-600">Support Policy</Link>
+                  <Link href="/help/privacy" className="text-gray-600 hover:text-purple-600">Privacy</Link>
                 </ul>
               </div>
             </div>
