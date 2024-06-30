@@ -27,7 +27,7 @@ const Navbar = () => {
                         <div className="flex font-medium space-x-6">
                                 <Link href="/" className="hover:underline" aria-current="page">Home</Link>
                                 <Link href="/about" className="hover:underline">About</Link>
-                                <Link href="/hotquestions" className="hover:underline">Hot Questions</Link>
+                                <Link href="/games" className="hover:underline">Games</Link>
                                 <Link href="/contact" className="hover:underline">Contact</Link>
                         </div>
                     </div>
