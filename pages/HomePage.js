@@ -14,16 +14,16 @@ const HomePage = () => {
                 Most Viewed
               </span>
             </div>
-            <Link href="/python/python" className="hover:scale-105">Python</Link>
-            <Link href="/cn/cn" className="hover:scale-105">Computer Network</Link>
-            <Link href="/oops/oops" className="hover:scale-105">Oops in C++</Link>
-            <Link href="/physics/physics" className="hover:scale-105">Semiconductor Physics</Link>
-            <Link href="/mpi/mpi" className="hover:scale-105">Microprocessor</Link>
-            <Link href="/java/java" className="hover:scale-105">Java</Link>
-            <Link href="/dbms/dbms" className="hover:scale-105">DBMS</Link>
-            <Link href="/os/os" className="hover:scale-105">Operating System</Link>
-            <Link href="/htmlCss/htmlCss" className="hover:scale-105">HTML/CSS</Link>
-            <Link href="/js/js" className="hover:scale-105">JavaScript</Link>
+            <Link href="/tutorials/python" className="hover:scale-105">Python</Link>
+            <Link href="/tutorials/cn" className="hover:scale-105">Computer Network</Link>
+            <Link href="/tutorials/oops" className="hover:scale-105">Oops in C++</Link>
+            <Link href="/tutorials/physics" className="hover:scale-105">Semiconductor Physics</Link>
+            <Link href="/tutorials/mpi" className="hover:scale-105">Microprocessor</Link>
+            <Link href="/tutorials/java" className="hover:scale-105">Java</Link>
+            <Link href="/tutorials/dbms" className="hover:scale-105">DBMS</Link>
+            <Link href="/tutorials/os" className="hover:scale-105">Operating System</Link>
+            <Link href="/tutorials/htmlCss" className="hover:scale-105">HTML/CSS</Link>
+            <Link href="/tutorials/js" className="hover:scale-105">JavaScript</Link>
           </div>
         </div>
       </div>
