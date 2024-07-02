@@ -1,12 +1,12 @@
 import React from 'react'
-import Work from '../public/bg.png'
-import Image from 'next/image'
 import Link from 'next/link'
+import Image from 'next/image'
+import Logo from '../public/bg.png'
 
 const HomePage = () => {
   return (
     <div className="w-full bg-white h-screen py-16">
-      <div className="bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 py-4">
+      <div className="bg-purple-700 py-4">
         <div className="container mx-auto flex flex-wrap justify-between items-center">
         <div className="flex space-x-5 text-white mx-auto font-light">
             <div className="uppercase tracking-wide text-white">
@@ -27,18 +27,34 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-    <div className="container flex flex-wrap justify-between items-center mx-auto">
-      <div className="w-1/2 p-36">
-        nwjbhfjdwih efo grhbdnkmnv bhfkl jcnkmdsf bvhjw odefrhbfn kmsnd csmncv nswbfhvjnkmsx cnmxnbhvfj[wnd cx,sbhfvjnwmqls dcnnkjnjbhdfndm snvnswm cs,nfbvjndkms ,mcvkmdnjbfh nmcd,s cvnn]
-        <div className="flex gap-4 mt-4">
-          <button type="button" className="w-1/2 bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 text-white font-medium rounded text-sm px-4 py-3 text-center hover:bg-gradient-to-tl ease-in-out duration-100">Get started</button>
-          <button type="button" className="w-1/2 border text-gray-500 font-medium rounded text-sm px-4 py-3 text-center ease-in-out duration-100">LogIn</button>
+      <section className="pt-32">
+        <div className="container mx-auto px-7 flex">
+          <div className="w-[60%] m-7">
+            <div className="flex flex-col w-full">
+              <div className="font-bold text-[35px] w-full">
+                <div className="h-[70px] overflow-hidden inline-block ml-2">
+                  <div className="w-full animate-flip">
+                    <div className="px-3 mb-4">Study Less, Achieve More</div>
+                    <div className="px-3 mb-4">Easy to Digest, Hard to Forget</div>
+                    <div className="px-3">Quick Points, Clear Understanding</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="ml-6">
+            <p className="text-[18px] text-gray-700 font-light py-2">At Exam Rush, we transform long, complicated answers into concise, easy-to-remember points. Our goal is to make your study sessions more efficient and effective. Join us to access streamlined content that helps you understand and retain information faster.</p>
+            <div className="flex mt-12 gap-2 w-[85%]">
+                <button type="button" className="w-1/2 bg-purple-700 text-white hover:bg-[#963be5] rounded text-sm px-4 py-3 text-center">Get started</button>
+              <button type="button" className="w-1/2 border border-gray-600 text-gray-600 hover:bg-gray-50 rounded text-sm px-4 py-3 text-center ease-in-out duration-100">LogIn</button>
+          </div>
+          <p className="text-1xl mt-4 text-gray-700 font-light">Get Started & achieve your academic success with less stress!</p>
+          </div>
+          </div>
+        <div className=" w-[40%] ">
+            <Image src={Logo} alt="logo"/>
+          </div>
         </div>
-      </div>
-      <div className="w-1/2 right-0">
-        <Image src={Work} alt="animated studying man" width="500" height="500" />
-      </div>
-    </div>
+      </section>
     </div>
   )
 }

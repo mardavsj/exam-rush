@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes flip {
+          0% {
+            margin-top: -11rem;
+          }
+          5% {
+            margin-top: -7.5rem;
+          }
+          33% {
+            margin-top: -7.5rem;
+          }
+          38% {
+            margin-top: -3.75rem;
+          }
+          66% {
+            margin-top: -3.75rem;
+          }
+          71% {
+            margin-top: 0rem;
+          }
+          99.99% {
+            margin-top: 0rem;
+          }
+          100% {
+            margin-top: -12rem;
+          }
+        }
+        .animate-flip {
+          animation: flip 12s linear infinite;
+        }
