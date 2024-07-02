@@ -19,16 +19,16 @@ const Navbar = () => {
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
                                 </svg>
                             </div>
-                            <input type="search" id="default-search" class="block p-2 ps-8 text-sm border rounded bg-purple-50" placeholder="Explore every topic" required />
-                            <button type="submit" class="text-white bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 rounded text-sm px-4 hover:bg-gradient-to-tl">Search</button>
+                            <input type="search" id="default-search" class="block p-2 ps-8 text-sm border border-gray-300 rounded" placeholder="Explore every topic" required />
+                            <button type="submit" class="text-white bg-purple-700 rounded hover:bg-[#963be5] text-sm px-4 hover:bg-gradient-to-tl">Search</button>
                         </div>
                     </form>
                     <div className="order-1">
-                        <div className="flex font-medium space-x-6">
-                                <Link href="/" className="hover:underline" aria-current="page">Home</Link>
-                                <Link href="/about" className="hover:underline">About</Link>
-                                <Link href="/games" className="hover:underline">Games</Link>
-                                <Link href="/contact" className="hover:underline">Contact</Link>
+                        <div className="flex font-medium uppercase">
+                                <Link href="/" className="hover:bg-gray-100 rounded py-2 px-5" aria-current="page">Home</Link>
+                            <Link href="/about" className="hover:bg-gray-100 rounded py-2 px-5">About</Link>
+                            <Link href="/games" className="hover:bg-gray-100 rounded py-2 px-5">Games</Link>
+                            <Link href="/contact" className="hover:bg-gray-100 rounded py-2 px-5">Contact</Link>
                         </div>
                     </div>
                 </div>

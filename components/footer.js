@@ -47,7 +47,7 @@ const Footer = () => {
       <div className="bg-gray-600 h-0 mb-10">
         <hr />
       </div>
-      <div data-backToTopButton role="button" onClick={scrollToTop} aria-label="Back to top" title="Back to top" className="fixed bottom-4 right-2 z-10 bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 text-white group w-[60px] h-[60px] rounded-full flex items-center justify-center shadow-back-to-top opacity-0 invisible">
+      <div data-backToTopButton role="button" onClick={scrollToTop} aria-label="Back to top" title="Back to top" className="fixed bottom-4 right-2 z-10 bg-purple-700 text-white group w-[60px] h-[60px] rounded-full flex items-center justify-center shadow-back-to-top opacity-0 invisible">
         <FaArrowUp width="30" height="20" extraClasses="transition-all duration-500 relative top-0 group-hover:-top-0.5 -mt-1" />
       </div>
       <div className="relative">
@@ -57,10 +57,10 @@ const Footer = () => {
               <div className="wow fadeInLeft">
                 <h3 className="text-lg font-semibold text-gray-800 mb-6">Follow us at :</h3>
                 <div className="flex space-x-4">
-                  <Link href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaLinkedin /></Link>
-                  <Link href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaInstagram /></Link>
-                  <Link href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaGithub /></Link>
-                  <Link href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 hover:text-white rounded-full"><FaSquareXTwitter /></Link>
+                  <Link href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-purple-700 hover:text-white rounded-full"><FaLinkedin /></Link>
+                  <Link href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-purple-700 hover:text-white rounded-full"><FaInstagram /></Link>
+                  <Link href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-purple-700 hover:text-white rounded-full"><FaGithub /></Link>
+                  <Link href="#" className="text-xl w-11 h-11 flex items-center justify-center bg-gray-200 text-gray-600 hover:bg-purple-700 hover:text-white rounded-full"><FaSquareXTwitter /></Link>
                 </div>
               </div>
             </div>
@@ -68,12 +68,12 @@ const Footer = () => {
               <div className="wow fadeInLeft" data-wow-delay="0.4s">
                 <h3 className="text-lg font-semibold text-gray-800 mb-6">Trending</h3>
                 <ul className="grid space-y-3">
-                  <Link href="#" className="text-gray-600 hover:text-purple-600">Cloud Computing</Link>
-                  <Link href="#" className="text-gray-600 hover:text-purple-600">Amazon Web Services</Link>
-                  <Link href="#" className="text-gray-600 hover:text-purple-600">Microsoft Azure</Link>
-                  <Link href="#" className="text-gray-600 hover:text-purple-600">Docker</Link>
-                  <Link href="#" className="text-gray-600 hover:text-purple-600">Kubernetes</Link>
-                  <Link href="#" className="text-gray-600 hover:text-purple-600">Ethical Hacking</Link>
+                  <Link href="#" className="text-gray-600 hover:text-purple-700">Cloud Computing</Link>
+                  <Link href="#" className="text-gray-600 hover:text-purple-700">Amazon Web Services</Link>
+                  <Link href="#" className="text-gray-600 hover:text-purple-700">Microsoft Azure</Link>
+                  <Link href="#" className="text-gray-600 hover:text-purple-700">Docker</Link>
+                  <Link href="#" className="text-gray-600 hover:text-purple-700">Kubernetes</Link>
+                  <Link href="#" className="text-gray-600 hover:text-purple-700">Ethical Hacking</Link>
                 </ul>
               </div>
             </div>
@@ -81,12 +81,12 @@ const Footer = () => {
               <div className="wow fadeInLeft" data-wow-delay="0.6s">
                 <h3 className="text-lg font-semibold text-gray-800 mb-6">tutorials</h3>
                 <ul className="grid space-y-3">
-                  <Link href="/help/faq" className="text-gray-600 hover:text-purple-600">FAQ</Link>
-                  <Link href="/help/termsCondition" className="text-gray-600 hover:text-purple-600">Terms & Conditions</Link>
-                  <Link href="/help/report" className="text-gray-600 hover:text-purple-600">Reporting</Link>
-                  <Link href="/help/documentation" className="text-gray-600 hover:text-purple-600">Documentation</Link>
-                  <Link href="/help/support" className="text-gray-600 hover:text-purple-600">Support Policy</Link>
-                  <Link href="/help/privacy" className="text-gray-600 hover:text-purple-600">Privacy</Link>
+                  <Link href="/help/faq" className="text-gray-600 hover:text-purple-700">FAQ</Link>
+                  <Link href="/help/termsCondition" className="text-gray-600 hover:text-purple-700">Terms & Conditions</Link>
+                  <Link href="/help/report" className="text-gray-600 hover:text-purple-700">Reporting</Link>
+                  <Link href="/help/documentation" className="text-gray-600 hover:text-purple-700">Documentation</Link>
+                  <Link href="/help/support" className="text-gray-600 hover:text-purple-700">Support Policy</Link>
+                  <Link href="/help/privacy" className="text-gray-600 hover:text-purple-700">Privacy</Link>
                 </ul>
               </div>
             </div>
@@ -96,7 +96,7 @@ const Footer = () => {
                 <p className="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <form action="#" onSubmit="">
                   <input type="text" name="EMAIL" className="form-control memail w-full py-2 px-4 mb-4 border border-gray-300 rounded" placeholder="Email" />
-                  <button className=" w-full py-2 px-4 bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 text-white rounded hover:bg-gradient-to-tl " type="submit">Subscribe</button>
+                  <button className=" w-full py-2 px-4 bg-purple-700 text-white rounded hover:bg-[#963be5]" type="submit">Subscribe</button>
                 </form>
               </div>
             </div>
@@ -106,7 +106,7 @@ const Footer = () => {
         <Image src={footer} alt="footer background" className="mx-auto"/>
       </div>
       </div>
-      <div className="bg-gradient-to-tr from-purple-950 via-purple-700 to-purple-500 py-4">
+      <div className="bg-purple-700 py-4">
         <div className="container mx-auto flex flex-wrap justify-between items-center">
           <div className="w-1/2 text-gray-200 text-sm">
             © ExamRush 2024 All rights reserved.
