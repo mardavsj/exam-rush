@@ -31,3 +31,18 @@
         .animate-flip {
           animation: flip 12s linear infinite;
         }
+
+.primary-navigation ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  display: none;
+}
+
+.primary-navigation ul li:hover>ul,
+.primary-navigation ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
