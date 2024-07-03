@@ -79,7 +79,7 @@ const Footer = () => {
             </div>
             <div className="w-1/4 px-4">
               <div className="wow fadeInLeft" data-wow-delay="0.6s">
-                <h3 className="text-lg font-semibold text-gray-800 mb-6">tutorials</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-6">Help</h3>
                 <ul className="grid space-y-3">
                   <Link href="/help/faq" className="text-gray-600 hover:text-purple-700">FAQ</Link>
                   <Link href="/help/termsCondition" className="text-gray-600 hover:text-purple-700">Terms & Conditions</Link>
