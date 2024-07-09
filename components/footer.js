@@ -43,7 +43,7 @@ const Footer = () => {
   });
 
   return (
-    <footer className="bg-white mt-200">
+    <footer className="bg-white">
       <div className="bg-gray-600 h-0 mb-10">
         <hr />
       </div>
