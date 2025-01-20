@@ -9,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001695",
     "mongodb": "^6.12.0",
     "next": "14.2.4",
     "query-string": "^9.1.1",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
-    "react-toastify": "^11.0.2"
+    "react-toastify": "^11.0.2",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "eslint": "^8",
