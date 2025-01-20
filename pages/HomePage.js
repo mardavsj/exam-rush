@@ -18,12 +18,12 @@ const HomePage = () => {
             <Link href="/tutorials/cn" className="hover:scale-105">Computer Network</Link>
             <Link href="/tutorials/oops" className="hover:scale-105">Oops in C++</Link>
             <Link href="/tutorials/physics" className="hover:scale-105">Semiconductor Physics</Link>
-            <Link href="/tutorials/mpi" className="hover:scale-105">Microprocessor</Link>
+            <Link href="/tutorials/microprocessor" className="hover:scale-105">Microprocessor</Link>
             <Link href="/tutorials/java" className="hover:scale-105">Java</Link>
             <Link href="/tutorials/dbms" className="hover:scale-105">DBMS</Link>
-            <Link href="/tutorials/os" className="hover:scale-105">Operating System</Link>
+            <Link href="/tutorials/operating-system" className="hover:scale-105">Operating System</Link>
             <Link href="/tutorials/htmlCss" className="hover:scale-105">HTML/CSS</Link>
-            <Link href="/tutorials/js" className="hover:scale-105">JavaScript</Link>
+            <Link href="/tutorials/javascript" className="hover:scale-105">JavaScript</Link>
           </div>
         </div>
       </div>
